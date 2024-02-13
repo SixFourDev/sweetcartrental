@@ -4,14 +4,11 @@ import backgroundImage from '../images/cart2.jpeg';
 const LandingPage = () => {
   return (
     <div className="landing-page">
-      {/* Background image */}
       <div className="background-image">
-        {/* You can use inline styles or a CSS class for styling */}
-        {/* Example inline style: */}
         <img
           src={backgroundImage}
           alt="Background"
-          className="background-img" // Add the class for styling
+          className="background-img"
         />
 
         {/* White overlay */}
