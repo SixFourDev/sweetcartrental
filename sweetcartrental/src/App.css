@@ -1,3 +1,8 @@
+.landing-page,
+.packages-page {
+  font-family: "Montserrat", sans-serif;
+}
+
 /* LandingPage */
 
 .landing-page {
@@ -38,7 +43,7 @@
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   margin: 0;
   padding: 0;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 0.2em;
   outline: none;
 }
@@ -46,4 +51,58 @@
 .bold-text {
   font-weight: bold;
   font-size: 2em;
+}
+
+.see-packages-button {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  padding: 15px 30px;
+  background-color: lavender;
+  color: black;
+  font-size: 1.2em;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Packages Page */
+
+.package {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.package h2 {
+  color: lavender;
+}
+
+.package ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.package li {
+  margin: 10px 0;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 1.8em;
+  }
+
+  .see-packages-button {
+    top: 80%;
+  }
 }

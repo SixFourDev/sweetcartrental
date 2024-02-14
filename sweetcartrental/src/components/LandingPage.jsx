@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import backgroundImage from '../images/cart2.jpeg';
+import '../App.css';
 
 const LandingPage = () => {
   return (
@@ -22,6 +24,11 @@ const LandingPage = () => {
           <br />
           SAN DIEGO, CA
         </h1>
+
+        {/* Button to navigate to PackagesPage */}
+      <Link to="/packages" className="see-packages-button">
+        See Packages
+      </Link>
       </div>
     </div>
   );
