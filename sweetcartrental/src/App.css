@@ -108,6 +108,22 @@
   color: green;
 }
 
+.dessert-selections-container {
+  width: 100%;
+  text-align: center;
+}
+
+.selections-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: lavender;
+  color: black;
+  font-size: 1.2em;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
 
 /* Responsive Design */
 

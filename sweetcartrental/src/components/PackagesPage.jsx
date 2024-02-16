@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../App.css';
 
 const PackagesPage = () => {
@@ -64,6 +65,14 @@ const PackagesPage = () => {
           <li>Flower Garland - <span className="price">$10</span></li>
           <li>Balloon Garland - <span className="price">$40</span></li>
         </ul>
+      </div>
+      
+      {/* Container for Dessert Selections */}
+      <div className="dessert-selections-container">
+        {/* Dessert Selections button */}
+        <Link to="/dessert-selections" className="selections-button">
+          Dessert Selections
+        </Link>
       </div>
     </div>
   );
