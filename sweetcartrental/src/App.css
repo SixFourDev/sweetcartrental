@@ -72,14 +72,22 @@
 
 /* Packages Page */
 
+.packages-page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
 .package {
-  width: 80%;
-  margin: 20px auto;
+  width: 35%;
+  margin: 25px;
   padding: 20px;
   background-color: white;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
+  box-sizing: border-box;
 }
 
 .package h2 {
@@ -95,6 +103,12 @@
   margin: 10px 0;
 }
 
+.package .price {
+  font-weight: bold;
+  color: green;
+}
+
+
 /* Responsive Design */
 
 @media (max-width: 768px) {
@@ -104,5 +118,15 @@
 
   .see-packages-button {
     top: 80%;
+  }
+
+  .packages-page {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .package {
+    width: 90%;
+    margin-right: 0;
   }
 }
