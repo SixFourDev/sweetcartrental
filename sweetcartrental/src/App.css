@@ -70,7 +70,28 @@
   cursor: pointer;
 }
 
-/* Packages Page */
+/* Dessert Selections Page CSS */
+
+.dessert-selections-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.dessert-heading {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 2.5em;
+  color: black;
+  margin-bottom: 20px; /* Add margin at the bottom for space */
+}
+
+.note {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 10px;
+  background-color: lightblue;
+  padding: 10px;
+}
 
 .packages-page {
   display: flex;
@@ -80,7 +101,8 @@
 }
 
 .package {
-  width: 35%;
+  width: 350px; /* Set a fixed width for all packages */
+  height: 555px; /* Set a fixed height for all packages */
   margin: 25px;
   padding: 20px;
   background-color: white;
@@ -89,6 +111,9 @@
   text-align: center;
   box-sizing: border-box;
 }
+
+/* Ensure last package is centered */
+
 
 .package h2 {
   color: lavender;
@@ -124,6 +149,8 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+
 
 /* Responsive Design */
 
