@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sweetcartrental/static/css/main.21080cf6.css",
+    "main.js": "/sweetcartrental/static/js/main.8f082ecf.js",
+    "static/js/592.03b10c3f.chunk.js": "/sweetcartrental/static/js/592.03b10c3f.chunk.js",
+    "static/media/cart2.jpeg": "/sweetcartrental/static/media/cart2.a26b7c31ff68fbd03f6d.jpeg",
+    "index.html": "/sweetcartrental/index.html",
+    "main.21080cf6.css.map": "/sweetcartrental/static/css/main.21080cf6.css.map",
+    "main.8f082ecf.js.map": "/sweetcartrental/static/js/main.8f082ecf.js.map",
+    "592.03b10c3f.chunk.js.map": "/sweetcartrental/static/js/592.03b10c3f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.21080cf6.css",
+    "static/js/main.8f082ecf.js"
+  ]
+}
