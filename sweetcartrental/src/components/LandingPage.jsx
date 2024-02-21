@@ -26,8 +26,8 @@ const LandingPage = () => {
         </h1>
 
         {/* Button to navigate to PackagesPage */}
-      <Link to="/desserts" className="see-packages-button">
-        Dessert Selections
+      <Link to="/sweetcartmenu" className="see-packages-button">
+        See Menu
       </Link>
       </div>
     </div>

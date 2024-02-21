@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LandingPage from './components/LandingPage';
-import DessertSelection from './components/DessertSelection';
+import SweetCartMenu from './components/SweetCartMenu';
 
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/desserts" element={<DessertSelection />} />
+        <Route path="/sweetcartmenu" element={<SweetCartMenu />} />
       </Routes>
     </Router>
   );

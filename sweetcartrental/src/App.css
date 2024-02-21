@@ -82,7 +82,7 @@
   letter-spacing: 0.2rem;
   font-size: 2.5em;
   color: black;
-  margin-bottom: 20px; /* Add margin at the bottom for space */
+  margin-bottom: 20px;
 }
 
 .note {
@@ -93,16 +93,40 @@
   padding: 10px;
 }
 
-.packages-page {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
+.all-dessert-rentals {
+  text-align: center;
+  padding: 10px;
+  margin-top: -50px;
 }
 
-.package {
-  width: 350px; /* Set a fixed width for all packages */
-  height: 555px; /* Set a fixed height for all packages */
+.all-dessert-rentals h2 {
+  color: lavender;
+}
+
+.all-dessert-rentals ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.all-dessert-rentals li {
+  margin: 10px 0;
+}
+
+.all-dessert-rentals .price {
+  font-weight: bold;
+  color: green;
+}
+
+.dessert-sections-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.dessert-package {
+  width: 470px; 
+  height: 555px; 
   margin: 25px;
   padding: 20px;
   background-color: white;
@@ -112,44 +136,23 @@
   box-sizing: border-box;
 }
 
-/* Ensure last package is centered */
-
-
-.package h2 {
+.dessert-package h2 {
   color: lavender;
 }
 
-.package ul {
+.dessert-package ul {
   list-style-type: none;
   padding: 0;
 }
 
-.package li {
+.dessert-package li {
   margin: 10px 0;
 }
 
-.package .price {
+.dessert-package .price {
   font-weight: bold;
   color: green;
 }
-
-.dessert-selections-container {
-  width: 100%;
-  text-align: center;
-}
-
-.selections-button {
-  display: inline-block;
-  padding: 15px 30px;
-  background-color: lavender;
-  color: black;
-  font-size: 1.2em;
-  text-decoration: none;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
 
 
 /* Responsive Design */
