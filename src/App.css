@@ -205,12 +205,12 @@
 /* FAQ Page CSS */
 
 .faq-page {
-  background-color: #f0f0f0; /* Light gray background */
+  background-color: #f0f0f0;
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Adjust if needed to make the content centered vertically */
+  height: 100vh;
 }
 
 .faq-container {
