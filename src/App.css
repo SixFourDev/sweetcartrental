@@ -89,7 +89,7 @@
   font-size: 1.2em;
   font-weight: bold;
   margin-top: 10px;
-  background-color: lightblue;
+  background-color: lavender;
   padding: 10px;
 }
 
@@ -100,7 +100,7 @@
 }
 
 .all-dessert-rentals h2 {
-  color: lavender;
+  color: black;
 }
 
 .all-dessert-rentals ul {
@@ -137,7 +137,8 @@
 }
 
 .dessert-package h2 {
-  color: lavender;
+  color: black;
+  background-color: lavender;
 }
 
 .dessert-package ul {
