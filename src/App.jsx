@@ -6,16 +6,15 @@ import FAQ from './components/FAQ';
 import Photos from './components/Photos';
 import Inquiry from './components/Inquiry';
 
-
 const App = () => {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/sweetcartmenu" element={<SweetCartMenu />} />
-        <Route path="/faq" component={FAQ} />
-        <Route path="/photos" component={Photos} />
-        <Route path="/inquiry" component={Inquiry} />
+        <Route path="/faq" element={<FAQ />} />
+        <Route path="/photos" element={<Photos />} />
+        <Route path="/inquiry" element={<Inquiry />} />
       </Routes>
     </Router>
   );

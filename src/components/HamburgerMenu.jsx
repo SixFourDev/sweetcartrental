@@ -15,6 +15,7 @@ const HamburgerMenu = () => {
       <div className="menu-icon">&#9776;</div>
       <div className="menu-items">
         <Link to="/">Home</Link>
+        <Link to="/sweetcartmenu">Menu</Link>
         <Link to="/faq">FAQ</Link>
         <Link to="/photos">Photos</Link>
         <Link to="/inquiry">Inquiry</Link>
