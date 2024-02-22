@@ -38,7 +38,7 @@ const Photos = () => {
       <div className="photos-container">
         {photos.map((photo) => (
           <div key={photo.id} className="photo-thumbnail" onClick={() => openModal(photo)}>
-            <img src={photo.path} alt={`Photo ${photo.id}`} />
+            <img src={photo.path} alt="" />
             <p>{photo.description}</p>
             <button className="view-button">View</button>
           </div>
@@ -47,7 +47,7 @@ const Photos = () => {
 
       {selectedPhoto && (
         <div className="photo-modal">
-          <img src={selectedPhoto.path} alt={`Photo ${selectedPhoto.id}`} />
+          <img src={selectedPhoto.path} alt="" />
           <p>{selectedPhoto.description}</p>
           <button onClick={closeModal}>Close</button>
         </div>
