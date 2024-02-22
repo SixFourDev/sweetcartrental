@@ -1,4 +1,5 @@
 import React from 'react';
+import HamburgerMenu from './HamburgerMenu';
 import '../App.css';
 
 const DessertSelection = () => {
@@ -8,6 +9,8 @@ const DessertSelection = () => {
         <h1 className="dessert-heading">SWEET CART MENU</h1>
         <p className="note">ALL INDIVIDUALLY PACKAGED EXCEPT FOR BOBA TEAS</p>
       </div>
+
+          <HamburgerMenu />
 
       <div className="all-dessert-rentals">
         {/* All Dessert Rentals Include */}
