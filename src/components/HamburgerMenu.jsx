@@ -5,6 +5,7 @@ import '../App.css';
 
 const HamburgerMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const googleFormLink = 'https://docs.google.com/forms/d/e/1FAIpQLSehkF6uhM-f6AX5ZX9WrvdoNpyZndB7E_7nMlom8kGFC-5DYg/viewform';
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -18,7 +19,9 @@ const HamburgerMenu = () => {
         <Link to="/sweetcartmenu">Menu</Link>
         <Link to="/faq">FAQ</Link>
         <Link to="/photos">Photos</Link>
-        <Link to="/inquiry">Inquiry</Link>
+        <a href={googleFormLink} target="_blank" rel="noopener noreferrer">
+          Inquiry
+        </a>
       </div>
     </div>
   );
