@@ -1,5 +1,6 @@
 import React from 'react';
 import HamburgerMenu from './HamburgerMenu';
+import Socials from './Socials';
 import '../App.css';
 
 const FAQ = () => {
@@ -24,6 +25,8 @@ const FAQ = () => {
           <p><strong>A: </strong>At least 21 Days if that day is not already booked.</p>
         </div>
       </div>
+
+      <Socials />
     </div>
   );
 };

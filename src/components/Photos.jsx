@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import HamburgerMenu from './HamburgerMenu';
+import Socials from './Socials';
 import '../App.css';
 
 
@@ -52,6 +53,8 @@ const Photos = () => {
           <button onClick={closeModal}>Close</button>
         </div>
       )}
+
+      <Socials />
     </div>
   );
 };

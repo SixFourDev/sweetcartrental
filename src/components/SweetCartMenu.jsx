@@ -1,5 +1,6 @@
 import React from 'react';
 import HamburgerMenu from './HamburgerMenu';
+import Socials from './Socials';
 import '../App.css';
 
 const DessertSelection = () => {
@@ -140,8 +141,8 @@ const DessertSelection = () => {
             <span className="price">$185</span>
           </ul>
         </div>
-
       </div>
+      <Socials />
     </div>
   );
 };

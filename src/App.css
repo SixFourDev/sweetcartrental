@@ -336,6 +336,28 @@
   font-size: 1rem;
 }
 
+/* Socials CSS */
+
+.social-icons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.social-icons-container a {
+  margin: 0 14px; 
+}
+
+.social-icons-container i {
+  font-size: 30px;
+  color: #9480ba;
+}
 
 /* Responsive Design */
 
