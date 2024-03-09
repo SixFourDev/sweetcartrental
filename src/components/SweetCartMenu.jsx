@@ -22,7 +22,7 @@ const DessertSelection = () => {
             <li>Boho Umbrella</li>
             <li>3 Hours of Service</li>
             <li>Dry Ice</li>
-            <li>No Self served desserts</li>
+            <li>2 Flavors</li>
             <li>Drop-off and Pick-up within</li>
             <li>20 Mile Radius (SD County)</li>
           </ul>
@@ -47,7 +47,7 @@ const DessertSelection = () => {
             <li>Ube</li>
             <li>Vanilla</li>
             <br />
-            <span className="price">50 SERVINGS - $280</span>
+            <span className="price">50 SERVINGS - $290</span>
             <br />
             <span className="price">100 SERVINGS - $395</span>
           </ul>
@@ -67,7 +67,27 @@ const DessertSelection = () => {
             <br />
             <span className="price">50 SERVINGS - $245</span>
             <br />
-            <span className="price">150 SERVINGS - $295</span>
+            <span className="price">100 SERVINGS - $295</span>
+            <br />
+            <span className="price">150 SERVINGS - $350</span>
+          </ul>
+        </div>
+
+        {/* Macaron Ice Cream Sandwiches */}
+        <div className="dessert-package">
+          <h2>Macaron Ice Cream Sandwiches</h2>
+          <ul>
+            <li>Coffee</li>
+            <li>Green Tea</li>
+            <li>Mango</li>
+            <li>Strawberry</li>
+            <li>Thai Tea</li>
+            <li>Ube Taro</li>
+            <li>Vanilla</li>
+            <br />
+            <span className="price">50 SERVINGS - $370</span>
+            <br />
+            <span className="price">100 SERVINGS - $540</span>
           </ul>
         </div>
 
@@ -90,7 +110,9 @@ const DessertSelection = () => {
             <li>Passion Fruit Tea</li>
             <li>Strawberry Fruit Tea</li>
             <br />
-            <span className="price">150 SERVINGS - $630</span>
+            <span className="price">100 SERVINGS - $465</span>
+            <br />
+            <span className="price">150 SERVINGS - $590</span>
           </ul>
         </div>
 
@@ -120,6 +142,7 @@ const DessertSelection = () => {
             <li>Delivery Outside 20 Mile Radius - <span className="price">$75</span></li>
             <li>Personalized Labeling (Per 50 qty) - <span className="price">$20</span></li>
             <li>Per Additional Flavor - <span className="price">$25</span></li>
+            <li>Dessert Pick-Up - <span className="price">$30</span></li>
             <li>Flower Garland - <span className="price">$10</span></li>
             <li>Balloon Garland - <span className="price">$40</span></li>
             <li>10.5 ft inflatable screen rental (projector, set-up & break down not included) - <span className="price">$30</span></li>
