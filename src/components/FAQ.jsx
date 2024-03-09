@@ -22,7 +22,7 @@ const FAQ = () => {
 
         <div className="faq-item">
           <h2><strong>Q: </strong>HOW FAR IN ADVANCE DO I NEED TO RESERVE?</h2>
-          <p><strong>A: </strong>At least 21 Days if that day is not already booked.</p>
+          <p><strong>A: </strong>At least 21 days if you inquire with dessert, if just cart alone then 7 days if not already booked.</p>
         </div>
       </div>
 
