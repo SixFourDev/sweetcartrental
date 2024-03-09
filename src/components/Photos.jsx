@@ -8,6 +8,9 @@ import icecream from '../images/cup-icecream.jpeg';
 import drinkpouch from '../images/drinkpouch.webp';
 import macaron from '../images/macaron.webp';
 import mochi from '../images/mochi-ice-cream-034.jpeg';
+import weddingcart from '../images/wedding-cart.jpeg';
+import khybday1 from '../images/khylee-bday.jpeg';
+import khybday2 from '../images/khylee-stickers.jpeg';
 
 
 const Photos = () => {
@@ -18,6 +21,9 @@ const Photos = () => {
     { id: 2, path: drinkpouch, description: 'Boba Drink Pouches' },
     { id: 3, path: macaron, description: 'Macaron Ice Cream Sandwiches' },
     { id: 4, path: mochi, description: 'Mochi Ice Cream Sandwiches' },
+    { id: 5, path: weddingcart, description: 'Wedding Cart with artificial flower garland' },
+    { id: 6, path: khybday1, description: 'Birthday Cart with LED sign' },
+    { id: 6, path: khybday2, description: 'Personalized Labeling for Birthday Party' },
   ];
 
   const openModal = (photo) => {
